@@ -1,0 +1,84 @@
+﻿Appdomain Disposed
+Test Suite Dump
+#0: UnitTestProject1/Default - 
+#1: Default - 
+#3: UnitTestProject1 - 
+#4: UnitTestProject1.GuineaPigFeature - 
+#8: UnitTestProject1.GuineaPig2Feature - 
+#5: VerifyTitle - TestAssembly:UnitTestProject1/TestClass:UnitTestProject1.GuineaPigFeature/TestMethod:VerifyTitle
+#6: VerifyTitle2 - TestAssembly:UnitTestProject1/TestClass:UnitTestProject1.GuineaPigFeature/TestMethod:VerifyTitle2
+#7: VerifyTitle3 - TestAssembly:UnitTestProject1/TestClass:UnitTestProject1.GuineaPigFeature/TestMethod:VerifyTitle3
+#9: VerifyTitle4 - TestAssembly:UnitTestProject1/TestClass:UnitTestProject1.GuineaPig2Feature/TestMethod:VerifyTitle4
+#10: VerifyTitle5 - TestAssembly:UnitTestProject1/TestClass:UnitTestProject1.GuineaPig2Feature/TestMethod:VerifyTitle5
+#11: VerifyTitle6 - TestAssembly:UnitTestProject1/TestClass:UnitTestProject1.GuineaPig2Feature/TestMethod:VerifyTitle6
+End: Test Suite Dump
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Thread #0: creating new test thread executor for UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Kevin Berg\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.2.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #5/0 is started on thread #0
+Scheduler: dequeuing a rescheduled item: 5
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #5 is finished on thread #0 as Failed within 0.7670286 seconds
+Test #5/1 is started on thread #0
+T:-> warning: The previous ScenarioContext was not disposed.
+Scheduler: dequeuing a rescheduled item: 5
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #5 is finished on thread #0 as Failed within 0.0660051 seconds
+Test #5/2 is started on thread #0
+T:-> warning: The previous ScenarioContext was not disposed.
+Scheduler: considering #6 for thread #0
+Scheduler: using #6 for thread #0
+Test #6 is scheduled for thread #0
+Test #5 is finished on thread #0 as Failed within 0.0660027 seconds
+Test #6/0 is started on thread #0
+T:-> warning: The previous ScenarioContext was not disposed.
+Scheduler: dequeuing a rescheduled item: 6
+Scheduler: considering #6 for thread #0
+Scheduler: using #6 for thread #0
+Test #6 is scheduled for thread #0
+Test #6 is finished on thread #0 as Failed within 0.0589995 seconds
+Test #6/1 is started on thread #0
+T:-> warning: The previous ScenarioContext was not disposed.
+Scheduler: dequeuing a rescheduled item: 6
+Scheduler: considering #6 for thread #0
+Scheduler: using #6 for thread #0
+Test #6 is scheduled for thread #0
+Test #6 is finished on thread #0 as Failed within 0.0630021 seconds
+Test #6/2 is started on thread #0
+T:-> warning: The previous ScenarioContext was not disposed.
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Test #6 is finished on thread #0 as Failed within 0.0640024 seconds
+Test #7/0 is started on thread #0
+T:-> warning: The previous ScenarioContext was not disposed.
+Cancelling because configured number of failures reached
+Test #7 is finished on thread #0 as Failed within 0.3720182 seconds
+Appdomain Disposed
+Scheduler: considering #9 for thread #-1
+Scheduler: using #9 for thread #-1
+Test #9 is scheduled for thread #-1
+Test #9/0 is started on thread #-1
+Test #9 is finished on thread #-1 as Skipped within 0 seconds
+Scheduler: considering #10 for thread #-1
+Scheduler: using #10 for thread #-1
+Test #10 is scheduled for thread #-1
+Test #10/0 is started on thread #-1
+Test #10 is finished on thread #-1 as Skipped within 0 seconds
+Scheduler: considering #11 for thread #-1
+Scheduler: using #11 for thread #-1
+Test #11 is scheduled for thread #-1
+Test #11/0 is started on thread #-1
+Test #11 is finished on thread #-1 as Skipped within 0 seconds
+Total: 6 (test executions: 10)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 3
+Failed: 3

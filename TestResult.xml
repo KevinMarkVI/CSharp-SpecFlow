@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run start-time="2016-01-06 20:28:26Z">
+  <command-line><![CDATA["C:\Users\Kevin Berg\.dnx\bin\nunit3-console.EXE" UnitTestProject1.sln /config:Release --workers=9]]></command-line>
+</test-run>
